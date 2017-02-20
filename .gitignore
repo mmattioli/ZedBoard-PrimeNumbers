@@ -1,0 +1,28 @@
+## Exclude all
+*
+!*/
+!.gitignore
+!*.md
+
+## Xilinx Vivado
+
+# Tcl scripts
+!vivado/*.tcl
+
+# Block designs
+!bd/**/*.bd
+
+## Xilinx SDK
+
+!sdk/**/*.hdf
+!sdk/*/.cproject
+!sdk/*/.project
+!sdk/*/.sdkproject
+sdk/RemoteSystemsTempFiles/**
+
+# Application sources
+!sdk/*/src/*.[ch]
+
+# Board support packages
+!sdk/*/*.mss
+!sdk/*/Makefile
