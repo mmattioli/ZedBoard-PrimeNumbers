@@ -6,11 +6,20 @@
 
 ## Xilinx Vivado
 
+# RTL sources
+!rtl/**
+
+# Constraints
+!constraints/**
+
 # Tcl scripts
 !vivado/*.tcl
 
 # Block designs
 !bd/**/*.bd
+
+# IP cores
+!ip/**/*.xci
 
 ## Xilinx SDK
 
