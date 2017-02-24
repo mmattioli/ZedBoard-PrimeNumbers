@@ -1,4 +1,4 @@
-# ZedBoard LEDs and Buttons
+# ZedBoard Prime Number Algorithm
 
 ## About
 
